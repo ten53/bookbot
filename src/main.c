@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "readfile.h"
+#include "count.h"
 
 
 int main(void) {
@@ -12,7 +13,9 @@ int main(void) {
         return -1;
     }
 
-    printf("%s\n", book);
+    int total_words = word_count(book);
+
+    printf("Total words counted: %d\n", total_words);
 
     free(book);
 
