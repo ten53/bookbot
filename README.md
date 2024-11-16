@@ -1,3 +1,3 @@
 # Bookbot
 
-Simple program that parses a textfile and returnsgit  word and character count.
+Simple program that parses a textfile and returns a word and character count.
