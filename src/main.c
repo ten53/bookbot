@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "readfile.h"
 
 
@@ -12,6 +13,8 @@ int main(void) {
     }
 
     printf("%s\n", book);
+
+    free(book);
 
     return 0;
 }
